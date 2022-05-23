@@ -1,0 +1,55 @@
+.movie-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  background: linear-gradient(89deg, #6077ec 0%, #fc75f3 46%, #f8ca75 100%);
+  border-radius: 12px;
+  width: 30%;
+}
+
+.pic-container {
+  display: block;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 5px;
+  flex-flow: row-reverse;
+}
+
+.movie-pic {
+  width: 150px;
+}
+
+.movie-details {
+  padding: 10px;
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 400px) {
+  .pic-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .movie-pic {
+    font-size: 1.25rem;
+    width: 100px;
+  }
+
+  .btn:hover {
+    background-color: #510674;
+    border-color: #b14fdf;
+  }
+
+  .image {
+    width: 100px;
+  }
+}

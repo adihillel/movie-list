@@ -1,0 +1,24 @@
+.container {
+  padding: 15px;
+  margin: 1px auto;
+  width: 400rem;
+  max-width: 95%;
+  border-radius: 12px;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.btn {
+  font: inherit;
+  padding: 5px 5px;
+  border: 1px solid #b14fdf;
+  background-color: #b14fdf;
+  border: 3px solid rgb(255, 255, 255);
+  color: white;
+  width: 20%;
+  border-radius: 12px;
+}
+.btn:hover{
+    background-color: #510674;
+    border-color: #b14fdf
+}

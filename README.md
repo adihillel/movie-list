@@ -9,7 +9,7 @@ this app renders a movie list and sorts the movies according to rating from high
     2. npm start
 ```
 
-Demo:
+Demo:https://628b9c68d555bd00acc5ddff--earnest-moxie-1fcfab.netlify.app/
 
 ## Screenshot
 

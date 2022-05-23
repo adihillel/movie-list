@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import Movie from "../Movie/Movie";
 import "./MovieList.css";
 import { movieData } from "../../data";
-import { useMyContext } from "../../MyProvider";
-import axios from "axios";
-import useFetch from "react-fetch-hook";
 
 function MovieList() {
   const [isSorted, setIsSorted] = useState(false);

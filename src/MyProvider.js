@@ -4,8 +4,7 @@ const MyContext = createContext(null);
 export const useMyContext = () => useContext(MyContext);
 
 export const MyProvider = ({ children }) => {
-  const [data, setData] = useState([]);
-
+  //const [data, setData] = useState([]);
 
   // const fetchDataFromApi = () => {
   //   fetch("https://api.androidhive.info/json/movies.json", {
